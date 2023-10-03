@@ -14,7 +14,6 @@ const About = ({ data }) => {
         title="About"
         keywords={[
           'blog',
-          'gatsby',
           'javascript',
           'react',
           'serverless',
@@ -27,45 +26,37 @@ const About = ({ data }) => {
           'aws',
         ]}
       />
-      <h3>Nice to meet you.</h3>
-      <div>
-        <section style={{ float: 'left', paddingRight: '1.25rem' }}>
-          <GatsbyImage image={data.avatar.childImageSharp.gatsbyImageData} alt={siteMetadata.author} />
-        </section>
-        <p>
-          Career wise, I used to work in tech support. I enjoyed helping customers; however, I felt that my
-          job centered around asking engineers to fix bugs.
-        </p>
-        <p>
-          Because of my desire to provide a better customer experience and to take matters into my own hands,
-          I taught myself how to code and became a software engineer.
-        </p>
-        <p>
-          TypeScript, GraphQL, and AWS Serverless services are my current tools of choice. I'm open to learning new technologies if it makes sense for the project or matches my interest.
-        </p>
-        <section style={{ float: 'right', paddingLeft: '1.25rem' }}>
-          <GatsbyImage image={data.waterfall.childImageSharp.gatsbyImageData} alt="Danielle standing in front of a waterfall" />
-        </section>
-        <p>
-          This site serves as a personal reminder of my commitment to life long learning,
-          improvement, creating things, and knowledge sharing. In 2023, I was named an{' '}
-          <a
-            href="https://aws.amazon.com/developer/community/heroes/danielle-heberling/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            AWS Serverless Hero
-          </a>.
-        </p>
-        <p>
-          Since technology is always evolving, disclaimer that older content might contain out of date
-          information and examples.
-        </p>
-        <p>
-          Any opinions expressed on this site are mine and are not reflective of any organizations that I am
-          affiliated with.
-        </p>
-      </div>
+      <h3>Greetings, I'm Mpho!</h3>
+    <div>
+      <section style={{ float: 'left', paddingRight: '1.25rem' }}>
+        <GatsbyImage image={data.avatar.childImageSharp.gatsbyImageData} alt={siteMetadata.author} />
+      </section>
+      <p>
+        My journey in the tech world has been diverse and enriching. I've delved into various domains, from SAP to Web Development and Design. The cloud has been my playground, and I've also ventured into the intricate realms of Data Science, Machine Learning, and Artificial Intelligence.
+      </p>
+      <p>
+        While my heart still beats for coding, I've transitioned into a role that allows me to make a broader impact. I'm currently spearheading business development for Data Immigrant, a company I'm deeply passionate about.
+      </p>
+      <section style={{ float: 'right', paddingLeft: '1.25rem' }}>
+        <GatsbyImage image={data.waterfall.childImageSharp.gatsbyImageData} alt="Mpho standing in front of a scenic view" />
+      </section>
+      <p>
+        If you're curious about the twists and turns of my tech journey, you can delve deeper{' '}
+        <a
+          href="https://link-to-mphos-tech-journey.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>.
+      </p>
+      <p>
+        As the tech landscape is ever-evolving, please note that some older content might contain outdated information and examples.
+      </p>
+      <p>
+        The views and opinions expressed on this site are solely mine and do not reflect those of any organizations I'm affiliated with.
+      </p>
+    </div>
     </Layout>
   );
 };
