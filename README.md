@@ -1,12 +1,11 @@
-# Danielle-Heberling-Dot-XYZ
+# Mpho-Mathabathe-Dot-XYZ
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a4629274-59c5-47ee-901f-9621a8fb5174/deploy-status)](https://app.netlify.com/sites/deeheber/deploys)
 
 ## 🧐 What's inside?
 
-This is the source code for my personal blog website https://www.danielleheberling.xyz Feel free to submit a PR for any improvements and especially if you see any typos in my posts.
+This is the source code for my personal blog website https://www.mphomathabathe.xyz Feel free to submit a PR for any improvements and especially if you see any typos in my posts.
 
-Note that I've mostly just used the Gatsby starter, so some of the code in this repo might [not be reflective of my personal coding style](https://github.com/deeheber/danielle-heberling-dot-xyz/issues/11).
 
 ## 🚀 Quick start
 
@@ -14,7 +13,7 @@ Note that I've mostly just used the Gatsby starter, so some of the code in this 
 
     ```sh
     # cd into the directory location you'd like first
-    git clone https://github.com/deeheber/danielle-heberling-dot-xyz.git
+    git clone https://github.com/mphomathabathe/mpho-mathabathe-dot-xyz.git
     ```
 
 1.  **Start developing.**
@@ -24,7 +23,7 @@ Note that I've mostly just used the Gatsby starter, so some of the code in this 
     Navigate into the site’s directory and start it up.
 
     ```sh
-    cd danielle-heberling-dot-xyz/
+    cd mpho-mathabathe-dot-xyz/
     npm i
     npm start
     ```
